@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a9a93824-edb0-4095-8de9-eb2f3ec94e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HeaderFiles">
+      <UniqueIdentifier>{558fb1cd-62f0-4b6b-b089-83aab039b4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SourceFiles">
+      <UniqueIdentifier>{c41fb0c3-ded4-43a2-bb39-54515a36a84e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\SourceFiles\main.cpp">
+      <Filter>Source\SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\HeaderFiles\HelloTriangleApplication.h">
+      <Filter>Source\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
