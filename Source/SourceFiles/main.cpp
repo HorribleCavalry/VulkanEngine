@@ -3,7 +3,7 @@
 //#include <glm/vec4.hpp>
 //#include <glm/mat4x4.hpp>
 
-#include "../HeaderFiles/HelloTriangleApplication.h"
+#include "../HeaderFiles/VulkanApplicationBase.h"
 
 #include <iostream>
 
@@ -13,10 +13,9 @@ const char* windowName = "Horrible Engine";
 
 int main()
 {
-	HelloTriangleApplication app;
+	VulkanApplicationBase app;
 	try
 	{
-		app.CheckVKEnumerateInstanceExtensionProperties();
 		app.Run();
 	}
 	catch (const std::exception e)
