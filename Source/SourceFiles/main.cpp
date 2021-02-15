@@ -11,17 +11,15 @@ const int windowWidth = 1920;
 const int windowHeight = 1080;
 const char* windowName = "Horrible Engine";
 
-int main()
-{
-	VulkanApplicationBase app;
-	try
-	{
+int main() {
+	VulkanWindowBase app;
+
+	try {
 		app.Run();
 	}
-	catch (const std::exception e)
-	{
-		std::cout << e.what();
-		return EXIT_SUCCESS;
+	catch (const std::exception& e) {
+		std::cerr << e.what() << std::endl;
+		return EXIT_FAILURE;
 	}
 
 	return EXIT_SUCCESS;
