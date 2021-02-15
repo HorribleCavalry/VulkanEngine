@@ -24,6 +24,13 @@
   <ItemGroup>
     <ClInclude Include="..\Source\HeaderFiles\VulkanApplicationBase.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\Shaders\compile.bat" />
+    <None Include="..\Source\Shaders\VulkanWindowBase.frag" />
+    <None Include="..\Source\Shaders\VulkanWindowBase.vert" />
+    <None Include="..\Source\Shaders\VulkanWindowBaseFrag.spv" />
+    <None Include="..\Source\Shaders\VulkanWindowBaseVert.spv" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5260FA77-8FAB-4E6F-8630-25C4790B0FAD}</ProjectGuid>

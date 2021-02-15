@@ -10,6 +10,9 @@
     <Filter Include="Source\SourceFiles">
       <UniqueIdentifier>{c41fb0c3-ded4-43a2-bb39-54515a36a84e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Shaders">
+      <UniqueIdentifier>{e466c445-b6cf-425d-a77f-a3cb2b0291e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\SourceFiles\main.cpp">
@@ -20,5 +23,22 @@
     <ClInclude Include="..\Source\HeaderFiles\VulkanApplicationBase.h">
       <Filter>Source\HeaderFiles</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\Shaders\compile.bat">
+      <Filter>Source\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\VulkanWindowBase.frag">
+      <Filter>Source\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\VulkanWindowBase.vert">
+      <Filter>Source\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\VulkanWindowBaseFrag.spv">
+      <Filter>Source\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\VulkanWindowBaseVert.spv">
+      <Filter>Source\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
